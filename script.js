@@ -48,7 +48,7 @@ var typed = new Typed('#type-animation', {
     function toggleContainerForBE() { 
     var element = document.getElementById('box2');
     var lowerContainer = document.getElementById('backend-container');
-    sectionHeight.style.height = '65vh' 
+    sectionHeight.style.height = lowerContainer.style.width + '65vh' 
     
     if(lowerContainer.style.display === "none") { 
       lowerContainer.style.display = "block";
